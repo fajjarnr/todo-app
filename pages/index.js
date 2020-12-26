@@ -31,6 +31,7 @@ export default function Home({ initialTodos, user }) {
             </ul>
           </>
         )}
+        {!user && <p>you must login to save your TODOS</p>}
       </main>
     </div>
   );
